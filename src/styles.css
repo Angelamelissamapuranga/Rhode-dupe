@@ -1,0 +1,45 @@
+nav {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #67645e;
+  display: inline;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  align-items: center;
+  display: flex;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 24px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  color: #86807a;
+}
+
+nav a {
+  text-decoration: none;
+  color: #71675a;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+@media (max-width: 768px) {
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+}
