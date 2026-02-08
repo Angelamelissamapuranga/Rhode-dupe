@@ -1,3 +1,13 @@
+:root {
+  --branding-color: #67645e;
+  --branding-font: "League Spartan", sans-serif;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  color: #67645e;
+}
+
 nav {
   height: 80px;
   width: 100%;
@@ -35,6 +45,114 @@ nav a {
   font-family: Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 200;
+}
+
+.container {
+  margin-top: 24px;
+}
+
+.img-main {
+  padding: 28px;
+}
+
+.information {
+  background: #f1f0ef;
+  width: 758px;
+  height: 816px;
+  text-align: center;
+}
+
+.information h1 {
+  color: #67645e;
+  font-size: 63px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.information h2 {
+  font-family: "Anton", sans-serif;
+  color: #c4c4c4;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.information p {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.img-display {
+  height: 415px;
+  width: 452px;
+}
+
+.dots {
+  display: flex;
+  gap: 41px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.jelly-bean {
+  background: #d781a8;
+}
+
+.ribbon {
+  background: #cb7687;
+}
+
+.toast {
+  background: #a56559;
+}
+
+.img-gallery {
+  margin-top: 24px;
+  width: 400px;
+  height: 400px;
+}
+
+.salty {
+  background: #a05f65;
+}
+
+.raspberry {
+  background: #6f1238;
+}
+.pbj {
+  background: #622125;
+}
+
+.btn {
+  border-radius: 33px;
+  border: 2px solid #c4c4c4;
+  background: white;
+  color: var(--branding-color);
+  font-size: 22px;
+  height: 48px;
+  padding: 0 27px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 40px;
+  gap: 50px;
+  margin: 50px;
+  padding: 24px 16px;
 }
 
 @media (max-width: 768px) {
